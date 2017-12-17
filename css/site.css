@@ -1,0 +1,137 @@
+body {
+    font-family: "Crimson Text", "Times New Roman", serif;
+    background-color: #F2FFFC;
+    font-size: 120%;
+    line-height: 1.5;
+}
+
+h1, h2 {
+    font-family: "Open Sans Condensed","Arial", sans-serif;
+}
+
+main h1 {
+    color: #FFF;
+    text-align: center;
+    background-color: #851944;
+    padding: 25px;
+    border-bottom: 10px solid #000;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+p {
+    text-align: justify;
+    margin: 20px 0;
+}
+
+aside {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    text-align: center;
+    
+    float: right;
+    border-bottom: 10px solid #000;
+    border-left: 10px solid #000;
+    width: 15%;
+    box-sizing: border-box;
+    position: relative;
+    top: 310px;
+    padding: 20px;
+}
+
+#rodape-pagina {
+    background-color: #000;
+    color: #F2FFFC;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+main a {
+    color: #851944;
+}
+
+aside a {
+    color: inherit;
+    font-family: "Open Sans Condensed",sans-serif;
+    text-transform: lowercase;
+}
+
+main div {
+    width: 720px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+aside h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 30px;
+    clear: both;
+}
+
+.icones-sociais li {
+    display: inline-block;
+}
+
+.icones-sociais a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -99999px;
+}
+
+.github {
+    background-image: url('../img/github.png');
+}
+
+.twitter {
+    background-image: url('../img/twitter.png');
+}
+
+.linkedin {
+    background-image: url('../img/linkedin.png');
+}
+
+main {
+    float: left;
+    width: 85%;
+    padding-bottom: 80px;
+}
+
+.foto-joao{
+    float: right;
+    border-bottom: 10px solid #000;
+    border-left: 10px solid #000;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+main h2 {
+    font-size: 30px;
+}
+
+aside, footer{
+    padding: 20px;
+}
+
+
+
+
+
